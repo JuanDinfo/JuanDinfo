@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background: linear-gradient(90deg, #0072ff, #00c6ff);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffdd57;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #0072ff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus {
+    border-color: #0072ff;
+}
+
+form button {
+    padding: 10px;
+    background-color: #0072ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #005bb5;
+}
+
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    padding: 15px;
+    background-color: blue;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.producto:hover{
+    scale: 1.05;
+}
+
+.producto h3 {
+    font-size: 1.5rem;
+}
+
+.producto button {
+    background-color: #28a745;
+}
+
+.producto button:hover {
+    background-color: #218838;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #0072ff;
+    color: white;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+
+#contacto a {
+    color: #0072ff;
+    text-decoration: none;
+}
+
+#contacto a:hover {
+    text-decoration: underline;
+}
